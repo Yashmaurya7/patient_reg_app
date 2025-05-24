@@ -79,11 +79,11 @@ export default function App() {
   }, [db]);
 
   if (!db) {
-    return <div className="p-4">Loading database...</div>;
+    return <div className="p-2">Loading database...</div>;
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4">
+    <div className="min-h-screen bg-gray-50 p-2">
       <div className="max-w-6xl mx-auto space-y-8">
         <h1 className="text-3xl font-bold text-teal-600">Patient Registration</h1>
         

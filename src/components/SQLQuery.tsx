@@ -21,8 +21,8 @@ export default function SqlQuery({ onExecute }: SqlQueryProps) {
   };
 
   return (
-    <div className="space-y-4">
-      <h2 className="text-xl font-semibold text-teal-600">SQL Query</h2>
+    <div className="space-y-4 border-b">
+      <h2 className="text-4xl font-semibold text-teal-600">SQL Query</h2>
       <div className="flex space-x-2">
         <textarea
           value={query}
